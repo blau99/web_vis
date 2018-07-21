@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Latitude!</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          </ul>
+      </div>
+
+      <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="temp.html">Temperature</a>
+                <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+          </div> 
+      </div>
+      <div class="nav-item float-md-right">
+        <a class="nav-link" href="comparison.html">Comparisons</a>
+      </div>  
+      <div class="nav-item float-md-right">
+        <a class="nav-link" href="data.html">Data</a>
+      </div>
+          
+      
+      </nav>
+
+      <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <section>
+                        <div class="container">
+                            <div class="row">
+                                
+                                <h1>Wind Speed</h1>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img class="img-responsive" src="WindSpeed_Latitude.png" style="margin-left: 30px; margin-bottom: 30px" alt="">
+                                    </div>
+                                 <p>
+                                        Among various latitudes, there is a concentration of wind speeds between 0 and 10 mph.
+                                 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section style="width: 387px">
+                        <div class="container">
+                        <div class="row">
+                                <h1 class="img-responsive">Visualizations</h1>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="cloud.html"><img class="img-responsive" src="Cloudiness_Latitude.png" style="width:175px; height:165px; margin-bottom: 30px" alt=""></a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="humidity.html"><img class="img-responsive" src="Humidity_Latitude.png" style="width:175px; height:165px; margin-bottom: 30px" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="temp.html"><img class="img-responsive" src="Temperature_Latitude.png" style="width:175px; height:165px; margin-bottom: 30px" alt=""></a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="wind.html"><img class="img-responsive" src="WindSpeed_Latitude.png" style="width:175px; height:165px; margin-bottom: 30px" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+   
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
